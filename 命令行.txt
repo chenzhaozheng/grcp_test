@@ -1,0 +1,7 @@
+node ./route_guide_client_egg.js 
+
+
+ 
+现连接的是：taxi-mixer-server-api-dev.ttmap-devx.zuzuche.net:80
+
+有修改直接替换route_guide_client_egg里的链接成测试的链接就好

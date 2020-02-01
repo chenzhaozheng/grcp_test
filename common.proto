@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option objc_class_prefix = "RTG";
+
+package egg.common;
+
+service Main {
+  rpc Estimateprice(stream Status) returns (stream Status) {}
+}
+
+message Status {
+  string code = 1;
+  string data = 123;
+  string message = 2;
+  string parameter = 31;
+}
